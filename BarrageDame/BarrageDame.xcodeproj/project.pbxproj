@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DA41FD2200C49AC000C1462 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA41FD1200C49AC000C1462 /* AppDelegate.m */; };
+		2DA41FD5200C49AC000C1462 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA41FD4200C49AC000C1462 /* ViewController.m */; };
+		2DA41FD8200C49AC000C1462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA41FD6200C49AC000C1462 /* Main.storyboard */; };
+		2DA41FDB200C49AC000C1462 /* BarrageDame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DA41FD9200C49AC000C1462 /* BarrageDame.xcdatamodeld */; };
+		2DA41FDD200C49AC000C1462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA41FDC200C49AC000C1462 /* Assets.xcassets */; };
+		2DA41FE0200C49AC000C1462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA41FDE200C49AC000C1462 /* LaunchScreen.storyboard */; };
+		2DA41FE3200C49AC000C1462 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA41FE2200C49AC000C1462 /* main.m */; };
+		2DA41FED200C49AC000C1462 /* BarrageDameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA41FEC200C49AC000C1462 /* BarrageDameTests.m */; };
+		2DA41FF8200C49AC000C1462 /* BarrageDameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA41FF7200C49AC000C1462 /* BarrageDameUITests.m */; };
+		2DA4200C200C49C5000C1462 /* libYDBarrage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA4200A200C49BD000C1462 /* libYDBarrage.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA41FE9200C49AC000C1462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA41FC5200C49AC000C1462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA41FCC200C49AC000C1462;
+			remoteInfo = BarrageDame;
+		};
+		2DA41FF4200C49AC000C1462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA41FC5200C49AC000C1462 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DA41FCC200C49AC000C1462;
+			remoteInfo = BarrageDame;
+		};
+		2DA42009200C49BD000C1462 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA42005200C49BD000C1462 /* YDBarrage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D9F3CB32001170100A991EB;
+			remoteInfo = YDBarrage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DA41FCD200C49AC000C1462 /* BarrageDame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarrageDame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA41FD0200C49AC000C1462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DA41FD1200C49AC000C1462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DA41FD3200C49AC000C1462 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DA41FD4200C49AC000C1462 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DA41FD7200C49AC000C1462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DA41FDA200C49AC000C1462 /* BarrageDame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BarrageDame.xcdatamodel; sourceTree = "<group>"; };
+		2DA41FDC200C49AC000C1462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DA41FDF200C49AC000C1462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DA41FE1200C49AC000C1462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA41FE2200C49AC000C1462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DA41FE8200C49AC000C1462 /* BarrageDameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageDameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA41FEC200C49AC000C1462 /* BarrageDameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageDameTests.m; sourceTree = "<group>"; };
+		2DA41FEE200C49AC000C1462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA41FF3200C49AC000C1462 /* BarrageDameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageDameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA41FF7200C49AC000C1462 /* BarrageDameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageDameUITests.m; sourceTree = "<group>"; };
+		2DA41FF9200C49AC000C1462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA42005200C49BD000C1462 /* YDBarrage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YDBarrage.xcodeproj; path = ../YDBarrage.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DA41FCA200C49AC000C1462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA4200C200C49C5000C1462 /* libYDBarrage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA41FE5200C49AC000C1462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA41FF0200C49AC000C1462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA41FC4200C49AC000C1462 = {
+			isa = PBXGroup;
+			children = (
+				2DA42005200C49BD000C1462 /* YDBarrage.xcodeproj */,
+				2DA41FCF200C49AC000C1462 /* BarrageDame */,
+				2DA41FEB200C49AC000C1462 /* BarrageDameTests */,
+				2DA41FF6200C49AC000C1462 /* BarrageDameUITests */,
+				2DA41FCE200C49AC000C1462 /* Products */,
+				2DA4200B200C49C5000C1462 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DA41FCE200C49AC000C1462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA41FCD200C49AC000C1462 /* BarrageDame.app */,
+				2DA41FE8200C49AC000C1462 /* BarrageDameTests.xctest */,
+				2DA41FF3200C49AC000C1462 /* BarrageDameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA41FCF200C49AC000C1462 /* BarrageDame */ = {
+			isa = PBXGroup;
+			children = (
+				2DA41FD0200C49AC000C1462 /* AppDelegate.h */,
+				2DA41FD1200C49AC000C1462 /* AppDelegate.m */,
+				2DA41FD3200C49AC000C1462 /* ViewController.h */,
+				2DA41FD4200C49AC000C1462 /* ViewController.m */,
+				2DA41FD6200C49AC000C1462 /* Main.storyboard */,
+				2DA41FDC200C49AC000C1462 /* Assets.xcassets */,
+				2DA41FDE200C49AC000C1462 /* LaunchScreen.storyboard */,
+				2DA41FE1200C49AC000C1462 /* Info.plist */,
+				2DA41FE2200C49AC000C1462 /* main.m */,
+				2DA41FD9200C49AC000C1462 /* BarrageDame.xcdatamodeld */,
+			);
+			path = BarrageDame;
+			sourceTree = "<group>";
+		};
+		2DA41FEB200C49AC000C1462 /* BarrageDameTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA41FEC200C49AC000C1462 /* BarrageDameTests.m */,
+				2DA41FEE200C49AC000C1462 /* Info.plist */,
+			);
+			path = BarrageDameTests;
+			sourceTree = "<group>";
+		};
+		2DA41FF6200C49AC000C1462 /* BarrageDameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DA41FF7200C49AC000C1462 /* BarrageDameUITests.m */,
+				2DA41FF9200C49AC000C1462 /* Info.plist */,
+			);
+			path = BarrageDameUITests;
+			sourceTree = "<group>";
+		};
+		2DA42006200C49BD000C1462 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DA4200A200C49BD000C1462 /* libYDBarrage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DA4200B200C49C5000C1462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DA41FCC200C49AC000C1462 /* BarrageDame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA41FFC200C49AC000C1462 /* Build configuration list for PBXNativeTarget "BarrageDame" */;
+			buildPhases = (
+				2DA41FC9200C49AC000C1462 /* Sources */,
+				2DA41FCA200C49AC000C1462 /* Frameworks */,
+				2DA41FCB200C49AC000C1462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarrageDame;
+			productName = BarrageDame;
+			productReference = 2DA41FCD200C49AC000C1462 /* BarrageDame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DA41FE7200C49AC000C1462 /* BarrageDameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA41FFF200C49AC000C1462 /* Build configuration list for PBXNativeTarget "BarrageDameTests" */;
+			buildPhases = (
+				2DA41FE4200C49AC000C1462 /* Sources */,
+				2DA41FE5200C49AC000C1462 /* Frameworks */,
+				2DA41FE6200C49AC000C1462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA41FEA200C49AC000C1462 /* PBXTargetDependency */,
+			);
+			name = BarrageDameTests;
+			productName = BarrageDameTests;
+			productReference = 2DA41FE8200C49AC000C1462 /* BarrageDameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DA41FF2200C49AC000C1462 /* BarrageDameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DA42002200C49AC000C1462 /* Build configuration list for PBXNativeTarget "BarrageDameUITests" */;
+			buildPhases = (
+				2DA41FEF200C49AC000C1462 /* Sources */,
+				2DA41FF0200C49AC000C1462 /* Frameworks */,
+				2DA41FF1200C49AC000C1462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DA41FF5200C49AC000C1462 /* PBXTargetDependency */,
+			);
+			name = BarrageDameUITests;
+			productName = BarrageDameUITests;
+			productReference = 2DA41FF3200C49AC000C1462 /* BarrageDameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DA41FC5200C49AC000C1462 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = iqiyi.com;
+				TargetAttributes = {
+					2DA41FCC200C49AC000C1462 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					2DA41FE7200C49AC000C1462 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DA41FCC200C49AC000C1462;
+					};
+					2DA41FF2200C49AC000C1462 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DA41FCC200C49AC000C1462;
+					};
+				};
+			};
+			buildConfigurationList = 2DA41FC8200C49AC000C1462 /* Build configuration list for PBXProject "BarrageDame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DA41FC4200C49AC000C1462;
+			productRefGroup = 2DA41FCE200C49AC000C1462 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2DA42006200C49BD000C1462 /* Products */;
+					ProjectRef = 2DA42005200C49BD000C1462 /* YDBarrage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2DA41FCC200C49AC000C1462 /* BarrageDame */,
+				2DA41FE7200C49AC000C1462 /* BarrageDameTests */,
+				2DA41FF2200C49AC000C1462 /* BarrageDameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2DA4200A200C49BD000C1462 /* libYDBarrage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYDBarrage.a;
+			remoteRef = 2DA42009200C49BD000C1462 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DA41FCB200C49AC000C1462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA41FE0200C49AC000C1462 /* LaunchScreen.storyboard in Resources */,
+				2DA41FDD200C49AC000C1462 /* Assets.xcassets in Resources */,
+				2DA41FD8200C49AC000C1462 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA41FE6200C49AC000C1462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA41FF1200C49AC000C1462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA41FC9200C49AC000C1462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA41FD5200C49AC000C1462 /* ViewController.m in Sources */,
+				2DA41FDB200C49AC000C1462 /* BarrageDame.xcdatamodeld in Sources */,
+				2DA41FE3200C49AC000C1462 /* main.m in Sources */,
+				2DA41FD2200C49AC000C1462 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA41FE4200C49AC000C1462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA41FED200C49AC000C1462 /* BarrageDameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DA41FEF200C49AC000C1462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA41FF8200C49AC000C1462 /* BarrageDameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DA41FEA200C49AC000C1462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA41FCC200C49AC000C1462 /* BarrageDame */;
+			targetProxy = 2DA41FE9200C49AC000C1462 /* PBXContainerItemProxy */;
+		};
+		2DA41FF5200C49AC000C1462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DA41FCC200C49AC000C1462 /* BarrageDame */;
+			targetProxy = 2DA41FF4200C49AC000C1462 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DA41FD6200C49AC000C1462 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA41FD7200C49AC000C1462 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA41FDE200C49AC000C1462 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA41FDF200C49AC000C1462 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DA41FFA200C49AC000C1462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DA41FFB200C49AC000C1462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DA41FFD200C49AC000C1462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A282F54N;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				INFOPLIST_FILE = BarrageDame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iqiyi.com.BarrageDame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DA41FFE200C49AC000C1462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27A282F54N;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/..\"/**";
+				INFOPLIST_FILE = BarrageDame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iqiyi.com.BarrageDame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DA42000200C49AC000C1462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrageDameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iqiyi.com.BarrageDameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrageDame.app/BarrageDame";
+			};
+			name = Debug;
+		};
+		2DA42001200C49AC000C1462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrageDameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iqiyi.com.BarrageDameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrageDame.app/BarrageDame";
+			};
+			name = Release;
+		};
+		2DA42003200C49AC000C1462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrageDameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iqiyi.com.BarrageDameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarrageDame;
+			};
+			name = Debug;
+		};
+		2DA42004200C49AC000C1462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarrageDameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iqiyi.com.BarrageDameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarrageDame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DA41FC8200C49AC000C1462 /* Build configuration list for PBXProject "BarrageDame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA41FFA200C49AC000C1462 /* Debug */,
+				2DA41FFB200C49AC000C1462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA41FFC200C49AC000C1462 /* Build configuration list for PBXNativeTarget "BarrageDame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA41FFD200C49AC000C1462 /* Debug */,
+				2DA41FFE200C49AC000C1462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA41FFF200C49AC000C1462 /* Build configuration list for PBXNativeTarget "BarrageDameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA42000200C49AC000C1462 /* Debug */,
+				2DA42001200C49AC000C1462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DA42002200C49AC000C1462 /* Build configuration list for PBXNativeTarget "BarrageDameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA42003200C49AC000C1462 /* Debug */,
+				2DA42004200C49AC000C1462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DA41FD9200C49AC000C1462 /* BarrageDame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DA41FDA200C49AC000C1462 /* BarrageDame.xcdatamodel */,
+			);
+			currentVersion = 2DA41FDA200C49AC000C1462 /* BarrageDame.xcdatamodel */;
+			path = BarrageDame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DA41FC5200C49AC000C1462 /* Project object */;
+}

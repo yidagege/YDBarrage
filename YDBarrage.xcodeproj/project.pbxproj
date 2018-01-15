@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D350A54200B248F00A5EDEB /* BarrageDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D350A53200B248F00A5EDEB /* BarrageDispatcher.m */; };
+		2D350A58200B302200A5EDEB /* BarrageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D350A57200B302200A5EDEB /* BarrageConfig.m */; };
+		2D350A5C200B3DBC00A5EDEB /* NSTimer+BarrageRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D350A5B200B3DBC00A5EDEB /* NSTimer+BarrageRender.m */; };
+		2D350A5F200B3EC000A5EDEB /* BarrageClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D350A5E200B3EC000A5EDEB /* BarrageClock.m */; };
+		2D350AA6200B861F00A5EDEB /* BarrageConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D350A56200B302200A5EDEB /* BarrageConfig.h */; };
+		2D9F3CB82001170100A991EB /* YDBarrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F3CB72001170100A991EB /* YDBarrage.m */; };
+		2D9F3CB92001170100A991EB /* YDBarrage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9F3CB62001170100A991EB /* YDBarrage.h */; };
+		2D9F3CC12001174300A991EB /* BarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F3CC02001174300A991EB /* BarrageManager.m */; };
+		2D9F3CC42001176900A991EB /* BarrageCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F3CC32001176900A991EB /* BarrageCanvas.m */; };
+		2D9F3CC52001177500A991EB /* BarrageManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9F3CBF2001174300A991EB /* BarrageManager.h */; };
+		2D9F3CC62001177800A991EB /* BarrageCanvas.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9F3CC22001176900A991EB /* BarrageCanvas.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D9F3CB12001170100A991EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2D350AA6200B861F00A5EDEB /* BarrageConfig.h in CopyFiles */,
+				2D9F3CC62001177800A991EB /* BarrageCanvas.h in CopyFiles */,
+				2D9F3CC52001177500A991EB /* BarrageManager.h in CopyFiles */,
+				2D9F3CB92001170100A991EB /* YDBarrage.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D350A52200B248F00A5EDEB /* BarrageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageDispatcher.h; sourceTree = "<group>"; };
+		2D350A53200B248F00A5EDEB /* BarrageDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageDispatcher.m; sourceTree = "<group>"; };
+		2D350A56200B302200A5EDEB /* BarrageConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageConfig.h; sourceTree = "<group>"; };
+		2D350A57200B302200A5EDEB /* BarrageConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageConfig.m; sourceTree = "<group>"; };
+		2D350A5A200B3DBC00A5EDEB /* NSTimer+BarrageRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BarrageRender.h"; sourceTree = "<group>"; };
+		2D350A5B200B3DBC00A5EDEB /* NSTimer+BarrageRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BarrageRender.m"; sourceTree = "<group>"; };
+		2D350A5D200B3EC000A5EDEB /* BarrageClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageClock.h; sourceTree = "<group>"; };
+		2D350A5E200B3EC000A5EDEB /* BarrageClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageClock.m; sourceTree = "<group>"; };
+		2D9F3CB32001170100A991EB /* libYDBarrage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYDBarrage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9F3CB62001170100A991EB /* YDBarrage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBarrage.h; sourceTree = "<group>"; };
+		2D9F3CB72001170100A991EB /* YDBarrage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBarrage.m; sourceTree = "<group>"; };
+		2D9F3CBF2001174300A991EB /* BarrageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageManager.h; sourceTree = "<group>"; };
+		2D9F3CC02001174300A991EB /* BarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageManager.m; sourceTree = "<group>"; };
+		2D9F3CC22001176900A991EB /* BarrageCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageCanvas.h; sourceTree = "<group>"; };
+		2D9F3CC32001176900A991EB /* BarrageCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageCanvas.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9F3CB02001170100A991EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D350A55200B300A00A5EDEB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2D350A56200B302200A5EDEB /* BarrageConfig.h */,
+				2D350A57200B302200A5EDEB /* BarrageConfig.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2D350A59200B3D8D00A5EDEB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2D350A5A200B3DBC00A5EDEB /* NSTimer+BarrageRender.h */,
+				2D350A5B200B3DBC00A5EDEB /* NSTimer+BarrageRender.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2D9F3CAA2001170100A991EB = {
+			isa = PBXGroup;
+			children = (
+				2D9F3CB52001170100A991EB /* YDBarrage */,
+				2D9F3CB42001170100A991EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9F3CB42001170100A991EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9F3CB32001170100A991EB /* libYDBarrage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D9F3CB52001170100A991EB /* YDBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				2D9F3CB62001170100A991EB /* YDBarrage.h */,
+				2D9F3CB72001170100A991EB /* YDBarrage.m */,
+				2D9F3CBF2001174300A991EB /* BarrageManager.h */,
+				2D9F3CC02001174300A991EB /* BarrageManager.m */,
+				2D9F3CC22001176900A991EB /* BarrageCanvas.h */,
+				2D9F3CC32001176900A991EB /* BarrageCanvas.m */,
+				2D350A52200B248F00A5EDEB /* BarrageDispatcher.h */,
+				2D350A53200B248F00A5EDEB /* BarrageDispatcher.m */,
+				2D350A5D200B3EC000A5EDEB /* BarrageClock.h */,
+				2D350A5E200B3EC000A5EDEB /* BarrageClock.m */,
+				2D350A59200B3D8D00A5EDEB /* Util */,
+				2D350A55200B300A00A5EDEB /* Data */,
+			);
+			path = YDBarrage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D9F3CB22001170100A991EB /* YDBarrage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9F3CBC2001170100A991EB /* Build configuration list for PBXNativeTarget "YDBarrage" */;
+			buildPhases = (
+				2D9F3CAF2001170100A991EB /* Sources */,
+				2D9F3CB02001170100A991EB /* Frameworks */,
+				2D9F3CB12001170100A991EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDBarrage;
+			productName = YDBarrage;
+			productReference = 2D9F3CB32001170100A991EB /* libYDBarrage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D9F3CAB2001170100A991EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhangyi;
+				TargetAttributes = {
+					2D9F3CB22001170100A991EB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F9M67666KU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D9F3CAE2001170100A991EB /* Build configuration list for PBXProject "YDBarrage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D9F3CAA2001170100A991EB;
+			productRefGroup = 2D9F3CB42001170100A991EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D9F3CB22001170100A991EB /* YDBarrage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D9F3CAF2001170100A991EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9F3CB82001170100A991EB /* YDBarrage.m in Sources */,
+				2D350A5C200B3DBC00A5EDEB /* NSTimer+BarrageRender.m in Sources */,
+				2D350A54200B248F00A5EDEB /* BarrageDispatcher.m in Sources */,
+				2D9F3CC12001174300A991EB /* BarrageManager.m in Sources */,
+				2D9F3CC42001176900A991EB /* BarrageCanvas.m in Sources */,
+				2D350A58200B302200A5EDEB /* BarrageConfig.m in Sources */,
+				2D350A5F200B3EC000A5EDEB /* BarrageClock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D9F3CBA2001170100A991EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D9F3CBB2001170100A991EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D9F3CBD2001170100A991EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F9M67666KU;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D9F3CBE2001170100A991EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F9M67666KU;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9F3CAE2001170100A991EB /* Build configuration list for PBXProject "YDBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9F3CBA2001170100A991EB /* Debug */,
+				2D9F3CBB2001170100A991EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9F3CBC2001170100A991EB /* Build configuration list for PBXNativeTarget "YDBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9F3CBD2001170100A991EB /* Debug */,
+				2D9F3CBE2001170100A991EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D9F3CAB2001170100A991EB /* Project object */;
+}
