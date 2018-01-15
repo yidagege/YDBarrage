@@ -10,6 +10,13 @@
 /// 弹幕调度器, 主要完成负载均衡的工作.
 @implementation BarrageDispatcher
 
+- (void)distributeSprites{
+    
+}
+
+- (void)addSprite:(BarrageSpriteInfo *)sprite{
+    
+}
 
 
 @end

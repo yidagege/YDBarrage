@@ -37,7 +37,8 @@
         
         _block(0);
     } repeats:YES];
-    [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];    
+    [[NSRunLoop currentRunLoop] addTimer:_timer forMode:NSRunLoopCommonModes];
+    [_timer setFireDate:[NSDate date]];
 }
 
 - (void)start
@@ -45,8 +46,16 @@
     if (!_timer) {
         [self reset];
     }
-    
-    
 }
+
+- (void)stop{
+    [_timer invalidate];
+    _timer = nil;
+}
+
+- (void)pause{
+    [_timer setFireDate:[NSDate distantFuture]];
+}
+
 
 @end

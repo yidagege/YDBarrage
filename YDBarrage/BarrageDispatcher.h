@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BarrageConfig.h"
 
 @interface BarrageDispatcher : NSObject
+
+- (void)distributeSprites;
+- (void)addSprite:(BarrageSpriteInfo *)sprite;
 
 @end

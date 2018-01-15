@@ -9,10 +9,13 @@
 #import "BarrageManager.h"
 #import "BarrageCanvas.h"
 #import "BarrageClock.h"
+#import "BarrageDispatcher.h"
+
 @interface BarrageManager ()
 {
     BarrageCanvas * _canvas; // 画布
     BarrageClock *_clock;
+    BarrageDispatcher *_dispatcher;
 }
 @property (nonatomic, strong)BarrageCanvasConfig *data;
 
@@ -35,13 +38,12 @@
     __weak id weakSelf = self;
     _clock = [BarrageClock clockWithHandler:^(NSTimeInterval time){
         __strong id strongSelf = weakSelf;
-        [strongSelf continuingDrawAndShowDanMu];
-        
+        [strongSelf distributeSprites];
     }];
 }
 
-- (void)continuingDrawAndShowDanMu{
-    
+- (void)distributeSprites{
+    [_dispatcher distributeSprites];
 }
 
 - (UIView *)view
@@ -50,23 +52,29 @@
 }
 
 - (void)startDanMu{
-    
+    if (!_dispatcher) {
+        _dispatcher = [[BarrageDispatcher alloc]init];
+    }
+    [_clock start];
+
 }
 
 - (void)receiveDanMuDataList:(NSMutableArray<BarrageSpriteInfo *> *)danmuList{
-    
+    for (BarrageSpriteInfo *sprite in danmuList) {
+        [_dispatcher addSprite:sprite];
+    }
 }
 
 - (void)pauseDanMu{
-    
+    [_clock pause];
 }
 
 - (void)resumeDanMu{
-    
+    [_clock start];
 }
 
 - (void)stopDanMu{
-    
+    [_clock stop];
 }
 
 

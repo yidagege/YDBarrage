@@ -18,6 +18,7 @@
 		2D9F3CC42001176900A991EB /* BarrageCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F3CC32001176900A991EB /* BarrageCanvas.m */; };
 		2D9F3CC52001177500A991EB /* BarrageManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9F3CBF2001174300A991EB /* BarrageManager.h */; };
 		2D9F3CC62001177800A991EB /* BarrageCanvas.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9F3CC22001176900A991EB /* BarrageCanvas.h */; };
+		2DA42010200C51F2000C1462 /* BarrageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA4200F200C51F2000C1462 /* BarrageHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		2D9F3CC02001174300A991EB /* BarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageManager.m; sourceTree = "<group>"; };
 		2D9F3CC22001176900A991EB /* BarrageCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageCanvas.h; sourceTree = "<group>"; };
 		2D9F3CC32001176900A991EB /* BarrageCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageCanvas.m; sourceTree = "<group>"; };
+		2DA4200E200C51F2000C1462 /* BarrageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrageHelper.h; sourceTree = "<group>"; };
+		2DA4200F200C51F2000C1462 /* BarrageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 			children = (
 				2D350A5A200B3DBC00A5EDEB /* NSTimer+BarrageRender.h */,
 				2D350A5B200B3DBC00A5EDEB /* NSTimer+BarrageRender.m */,
+				2DA4200E200C51F2000C1462 /* BarrageHelper.h */,
+				2DA4200F200C51F2000C1462 /* BarrageHelper.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				2D9F3CC12001174300A991EB /* BarrageManager.m in Sources */,
 				2D9F3CC42001176900A991EB /* BarrageCanvas.m in Sources */,
 				2D350A58200B302200A5EDEB /* BarrageConfig.m in Sources */,
+				2DA42010200C51F2000C1462 /* BarrageHelper.m in Sources */,
 				2D350A5F200B3EC000A5EDEB /* BarrageClock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
