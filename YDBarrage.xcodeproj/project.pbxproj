@@ -19,6 +19,7 @@
 		2D9F3CC52001177500A991EB /* BarrageManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9F3CBF2001174300A991EB /* BarrageManager.h */; };
 		2D9F3CC62001177800A991EB /* BarrageCanvas.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D9F3CC22001176900A991EB /* BarrageCanvas.h */; };
 		2DA42010200C51F2000C1462 /* BarrageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA4200F200C51F2000C1462 /* BarrageHelper.m */; };
+		2DA9E4E72014CF3200589CFC /* BarrageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9E4E62014CF3200589CFC /* BarrageLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		2D9F3CC32001176900A991EB /* BarrageCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageCanvas.m; sourceTree = "<group>"; };
 		2DA4200E200C51F2000C1462 /* BarrageHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrageHelper.h; sourceTree = "<group>"; };
 		2DA4200F200C51F2000C1462 /* BarrageHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageHelper.m; sourceTree = "<group>"; };
+		2DA9E4E52014CF3200589CFC /* BarrageLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrageLayer.h; sourceTree = "<group>"; };
+		2DA9E4E62014CF3200589CFC /* BarrageLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2D350A53200B248F00A5EDEB /* BarrageDispatcher.m */,
 				2D350A5D200B3EC000A5EDEB /* BarrageClock.h */,
 				2D350A5E200B3EC000A5EDEB /* BarrageClock.m */,
+				2DA9E4E52014CF3200589CFC /* BarrageLayer.h */,
+				2DA9E4E62014CF3200589CFC /* BarrageLayer.m */,
 				2D350A59200B3D8D00A5EDEB /* Util */,
 				2D350A55200B300A00A5EDEB /* Data */,
 			);
@@ -187,6 +192,7 @@
 				2D9F3CC12001174300A991EB /* BarrageManager.m in Sources */,
 				2D9F3CC42001176900A991EB /* BarrageCanvas.m in Sources */,
 				2D350A58200B302200A5EDEB /* BarrageConfig.m in Sources */,
+				2DA9E4E72014CF3200589CFC /* BarrageLayer.m in Sources */,
 				2DA42010200C51F2000C1462 /* BarrageHelper.m in Sources */,
 				2D350A5F200B3EC000A5EDEB /* BarrageClock.m in Sources */,
 			);

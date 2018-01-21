@@ -21,8 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     BarrageCanvasConfig *model = [[BarrageCanvasConfig alloc]init];
+    model.frame = self.view.bounds;
+    
     _barrageManager = [[BarrageManager alloc]initWithConfig:model];
     [self.view addSubview: _barrageManager.view];
+    _barrageManager.view.backgroundColor = [UIColor redColor];
 
 }
 
